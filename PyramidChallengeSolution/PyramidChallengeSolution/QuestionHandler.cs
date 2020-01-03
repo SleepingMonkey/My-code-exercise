@@ -9,12 +9,10 @@ namespace PyramidChallengeSolution
     {
         private Pyramid _pyramid;
         private List<List<Node>> _allValidPathes;
-        private List<Node> _tempPath;
 
         public QuestionHandler(Pyramid pyramid)
         {
             _pyramid = pyramid;
-            _tempPath = new List<Node>();
             _allValidPathes = new List<List<Node>>();
         }
 

@@ -1,0 +1,8 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/PyramidChallengeSolution/PyramidChallengeSolution/obj
+/PyramidChallengeSolution/.vs/PyramidChallengeSolution/v16/Server/sqlite3
+/PyramidChallengeSolution/.vs/PyramidChallengeSolution/v16/.suo
+/PyramidChallengeSolution/PyramidChallengeSolution/bin/Debug/netcoreapp3.1

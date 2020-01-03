@@ -8,11 +8,11 @@ namespace PyramidChallengeSolution.Models
         public long Value { get; set; }
         public List<Node> Children { get; set; } = new List<Node>();
 
-        public NumbericType ValueNumbericType
+        public ValueType ValueNumbericType
         {
             get 
             { 
-                return Value % 2 == 0 ? NumbericType.Even : NumbericType.Odd; 
+                return Value % 2 == 0 ? ValueType.Even : ValueType.Odd; 
             }
         }
     }
